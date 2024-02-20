@@ -1,0 +1,5 @@
+---
+uint8 system
+int8 gyro
+uint8 mag
+uint8 accel
