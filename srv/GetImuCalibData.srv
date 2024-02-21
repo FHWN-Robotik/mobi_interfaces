@@ -1,0 +1,12 @@
+---
+int16 offset_gyroscope_x
+int16 offset_gyroscope_y
+int16 offset_gyroscope_z
+int16 offset_magnetometer_x
+int16 offset_magnetometer_y
+int16 offset_magnetometer_z
+int16 offset_accelerometer_x
+int16 offset_accelerometer_y
+int16 offset_accelerometer_z
+uint16 radius_magnetometer
+uint16 radius_accelerometer
