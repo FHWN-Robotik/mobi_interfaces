@@ -10,3 +10,5 @@ int16 offset_accelerometer_z
 uint16 radius_magnetometer
 uint16 radius_accelerometer
 ---
+bool success
+string message
