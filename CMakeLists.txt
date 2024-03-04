@@ -11,14 +11,16 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-# find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetImuCalibStatus.srv"
   "srv/GetImuCalibData.srv"
   "srv/SetImuCalibData.srv"
-  # DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+  "msg/Encoders.msg"
+  "msg/EncodersStamped.msg"
+  DEPENDENCIES std_msgs # Add packages that above messages depend on.
 )
 
 if(BUILD_TESTING)
