@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetImuCalibStatus.srv"
   "srv/GetImuCalibData.srv"
   "srv/SetImuCalibData.srv"
+  "srv/SetPower.srv"
   "msg/Encoders.msg"
   "msg/EncodersStamped.msg"
   DEPENDENCIES std_msgs # Add packages that above messages depend on.
