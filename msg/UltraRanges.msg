@@ -1,0 +1,6 @@
+sensor_msgs/Range front_left
+sensor_msgs/Range front_right
+sensor_msgs/Range center_left
+sensor_msgs/Range center_right
+sensor_msgs/Range rear_left
+sensor_msgs/Range rear_right

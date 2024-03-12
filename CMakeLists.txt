@@ -12,6 +12,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -21,7 +22,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPower.srv"
   "msg/Encoders.msg"
   "msg/EncodersStamped.msg"
+  "msg/UltraRanges.msg"
   DEPENDENCIES std_msgs # Add packages that above messages depend on.
+  DEPENDENCIES sensor_msgs
 )
 
 if(BUILD_TESTING)
