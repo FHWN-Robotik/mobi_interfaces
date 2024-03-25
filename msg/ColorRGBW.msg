@@ -1,4 +1,4 @@
-float32 r
-float32 g
-float32 b
-float32 w
+uint8 r
+uint8 g
+uint8 b
+uint8 w
