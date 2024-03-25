@@ -1,0 +1,21 @@
+# LED Strip animation type constants
+uint8 LED_ANIMATION_OFF = 0
+uint8 LED_ANIMATION_ON = 1
+uint8 LED_ANIMATION_DRIVING_LIGHTS = 2
+uint8 LED_ANIMATION_BEACON = 3
+uint8 LED_ANIMATION_BLINK = 4
+
+uint8 led_strip_animation
+mobi_interfaces/ColorRGBW color
+
+uint8 update_rate
+uint8 frame_count
+
+uint8 line_length
+uint8 line_count
+uint8 rotate_left
+
+---
+
+bool success
+string message

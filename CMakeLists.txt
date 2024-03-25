@@ -20,9 +20,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetImuCalibData.srv"
   "srv/SetImuCalibData.srv"
   "srv/SetPower.srv"
+  "srv/SetLedStrip.srv"
   "msg/Encoders.msg"
   "msg/EncodersStamped.msg"
   "msg/UltraRanges.msg"
+  "msg/ColorRGBW.msg"
   DEPENDENCIES std_msgs # Add packages that above messages depend on.
   DEPENDENCIES sensor_msgs
 )
