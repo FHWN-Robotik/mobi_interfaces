@@ -5,7 +5,7 @@ uint8 LED_ANIMATION_DRIVING_LIGHTS = 2
 uint8 LED_ANIMATION_BEACON = 3
 uint8 LED_ANIMATION_BLINK = 4
 
-uint8 led_strip_animation
+uint8 type
 mobi_interfaces/ColorRGBW color
 
 uint8 update_rate
