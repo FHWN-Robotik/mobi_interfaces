@@ -1,0 +1,6 @@
+---
+uint16 network_id
+uint8 firmware_version
+uint8 harware_version
+
+

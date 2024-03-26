@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetImuCalibData.srv"
   "srv/SetPower.srv"
   "srv/SetLedStrip.srv"
+  "srv/GetPozyxInfo.srv"
   "msg/Encoders.msg"
   "msg/EncodersStamped.msg"
   "msg/UltraRanges.msg"
