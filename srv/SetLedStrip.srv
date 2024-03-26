@@ -14,7 +14,7 @@ uint8 frame_count
 
 uint8 line_length
 uint8 line_count
-uint8 rotate_left
+bool rotate_left
 
 ---
 
