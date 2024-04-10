@@ -16,7 +16,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/GetImuCalibStatus.srv"
+  "srv/GetCalibStatus.srv"
   "srv/GetImuCalibData.srv"
   "srv/SetImuCalibData.srv"
   "srv/SetPower.srv"
